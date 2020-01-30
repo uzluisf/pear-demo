@@ -1,5 +1,3 @@
-# succotash
-
 ## Requirements
 
 * Raku (see https://raku.org/downloads/ for installation instructions)
@@ -22,7 +20,7 @@ $ cd pear-demo
 $ pear render
 ```
 
-A `docs` directory will be created. You can either open it with a browser
+A `public` directory will be created. You can either open it with a browser
 and navigate to each HTML file to view it. Or else...
 
 * Start a local web server
