@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+{{> head }}
+
+<body>
+	<div class="container wrapper tags">
+        {{> header }}
+
+		<h1 class="page-title">All tags</h1>
+
+        <div class="tag-cloud">
+            {{#tags}}
+            <a href="{{site.base-url}}{{url}}">{{name}}</a>
+            {{/tags}}
+        </div>
+	</div>
+
+    {{> footer }}
+</body>
+
+</html>

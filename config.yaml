@@ -1,0 +1,26 @@
+title: Lorem Ipsum
+subtitle: Vivamus congue tellus eget
+base-url: "/"
+# date-format: "%b %m, %Y"
+
+directories:
+    content: content
+    templates: templates
+    include: include
+    output: public
+
+# This is how the default template for the rss feed envisions how
+# the author's info. It doesn't need to be like this though.
+author:
+    name: John Doe
+    email: john@doe.com
+
+menu:
+  - name: "Home"
+    url: ""
+  - name: "All posts"
+    url: "posts"
+  - name: "About"
+    url: "about"
+  - name: "Tags"
+    url: "tags"

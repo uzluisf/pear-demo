@@ -1,0 +1,15 @@
+<div class="header">
+	<h1 class="site-title"><a href="{{site.base-url}}">{{site.title}}</a></h1>
+
+	<div class="site-description">
+	    {{#site.subtitle}}<h2>{{site.subtitle}}</h2>{{/site.subtitle}}
+    </div>
+
+	<nav class="nav">
+		<ul class="flat">
+            {{#site.menu}}
+			    <li><a href="{{site.base-url}}{{url}}">{{name}}</a></li>
+			{{/site.menu}}
+		</ul>
+	</nav>
+</div>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{{> head}}
+
+<body>
+    <div class="container wrapper post">
+        {{> header}}
+
+        <div class="post-header">
+            <h1 class="title">{{page.title}}</h1>
+            <div class="meta">Posted at &mdash;{{page.date}}{{#page.draft}}
+                <span class="draft-label">DRAFT</span>{{/page.draft}}
+            </div>
+        </div>
+       
+        <div class="markdown">{{{page.content}}}</div>
+
+        <!--
+        {{> pagination }}
+        -->
+    </div>
+
+    {{> footer }}
+</body>
+
+</html>
